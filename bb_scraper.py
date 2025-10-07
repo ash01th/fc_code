@@ -7,15 +7,16 @@ async def run(playwright: Playwright, url: str):
     page = await browser.new_page(viewport={"width": 1600, "height": 900})
     await page.goto(url, wait_until="networkidle")
 
-    # Ensure lazy-loaded images are triggered by scrolling
+    #scroll down to load lazy-loaded images
+    #important since we capture product names from image alt attribute
     await page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
     await page.wait_for_timeout(5000)  # Wait 2 seconds for images to load
 
-    # 1. DEFINE THE SELECTOR FOR THE MAIN PRODUCT CARD/CONTAINER
+    #selector for product card
     product_card_selector = "li.PaginateItems___StyledLi-sc-1yrbjdr-0"
 
     try:
-        # Wait for the first product card to appear on the page
+    #wait for the first product card to appear on the page
         await page.wait_for_selector(product_card_selector, timeout=15000)
         print("Product cards are visible. Starting scrape...")
     except Exception as e:
@@ -23,23 +24,22 @@ async def run(playwright: Playwright, url: str):
         await browser.close()
         return
 
-    # 2. GET ALL THE PRODUCT CARD ELEMENTS
+    #get all product card elements
     product_cards = await page.query_selector_all(product_card_selector)
     print(f"Found {len(product_cards)} product cards on the page.")
 
     scraped_data = []
 
-    # 3. LOOP THROUGH EACH CARD AND EXTRACT THE DETAILS
+    #iterate through the product cards and then images and then alt attribute for product name
     for index, card in enumerate(product_cards):
-        # Try a broader selector for the image to handle variations
         image_element = await card.query_selector('img[class*="DeckImage"]')
-        # Find the price element
+        #price element selector
         price_element = await card.query_selector('span.Pricing___StyledLabel-sc-pldi2d-1')
 
-        # Debugging: Log details about the card
+        #debugging  details about the card
         if not image_element:
             print(f"Card {index + 1}: Image element not found")
-            # Log the inner HTML of the image container for debugging
+            #inner html contents for debugging
             image_container = await card.query_selector('div.DeckImage___StyledDiv-sc-1mdvxwk-1')
             if image_container:
                 image_html = await image_container.inner_html()
@@ -47,7 +47,7 @@ async def run(playwright: Playwright, url: str):
         if not price_element:
             print(f"Card {index + 1}: Price element not found")
 
-        # Ensure at least one element was found to avoid skipping unnecessarily
+        
         if image_element or price_element:
             product_name = await image_element.get_attribute('alt') if image_element else "N/A"
             price = await price_element.inner_text() if price_element else "N/A"
@@ -60,8 +60,7 @@ async def run(playwright: Playwright, url: str):
             print(f"Card {index + 1}: Skipped due to missing both image and price elements")
 
     await browser.close()
-    
-    # 4. PRINT THE FINAL RESULTS
+    #printing scraped data
     print("\n--- Scraped Data ---")
     for item in scraped_data:
         print(f"Product: {item['product_name']}, Price: {item['price']}")
@@ -70,11 +69,11 @@ async def run(playwright: Playwright, url: str):
 
 async def main():
     async with async_playwright() as playwright:
-        result = await run(playwright, url="https://www.bigbasket.com/ps/?q=bread")  # Replace with your URL
+        result = await run(playwright, url="https://www.bigbasket.com/ps/?q=bread")
         with open("bb.json", "w") as output_file:
             json.dump(result, output_file, indent=4)
 
         print(result)
 
-if __name__ == "__main__":
-    asyncio.run(main())
+
+asyncio.run(main())
