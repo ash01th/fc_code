@@ -70,7 +70,7 @@ async def run(playwright: Playwright, url: str):
 async def main():
     async with async_playwright() as playwright:
         result = await run(playwright, url="https://www.bigbasket.com/ps/?q=bread")
-        with open("bb_data.json", "w") as output_file:
+        with open("data/bb_data.json", "w") as output_file:
             json.dump(result, output_file, indent=4)
 
         print(result)

@@ -100,7 +100,7 @@ async def run(playwright: Playwright, url: str):
 async def main():
     async with async_playwright() as playwright:
         result = await run(playwright, url="https://blinkit.com/s/?q=bread")
-        with open("blinkit_data.json", "w") as output_file:
+        with open("data/blinkit_data.json", "w") as output_file:
             json.dump(result, output_file, indent=4)
 
         print(result)

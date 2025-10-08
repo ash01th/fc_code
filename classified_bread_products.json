@@ -1,0 +1,387 @@
+[
+    {
+        "product_name": "Protein Chef High Protein 5 Super Foods Bread 270 g",
+        "type": "healthy bread",
+        "platform": "bb"
+    },
+    {
+        "product_name": "Britannia Whole Wheat Bread - No Maida 400 g",
+        "type": "healthy bread",
+        "platform": "bb"
+    },
+    {
+        "product_name": "Protein Chef High Protein Brown Bread 270 g",
+        "type": "healthy bread",
+        "platform": "bb"
+    },
+    {
+        "product_name": "The Health Factory 100% Whole Wheat Bread 250 g",
+        "type": "healthy bread",
+        "platform": "bb"
+    },
+    {
+        "product_name": "Lakeview Korean Bun 240 g",
+        "type": "special bread",
+        "platform": "bb"
+    },
+    {
+        "product_name": "Britannia Bread - Breakfast slice 450 g",
+        "type": "regular bread",
+        "platform": "bb"
+    },
+    {
+        "product_name": "The Health Factory 100% Whole Wheat Bread 350 g",
+        "type": "healthy bread",
+        "platform": "bb"
+    },
+    {
+        "product_name": "Tasties Whole Wheat Bread 400 g",
+        "type": "healthy bread",
+        "platform": "bb"
+    },
+    {
+        "product_name": "English Oven Milk Bread 400 g Pouch",
+        "type": "regular bread",
+        "platform": "bb"
+    },
+    {
+        "product_name": "English Oven 100% Whole Wheat Bread 400 g",
+        "type": "healthy bread",
+        "platform": "bb"
+    },
+    {
+        "product_name": "MODERN  100% Whole Wheat Bread 400 g",
+        "type": "healthy bread",
+        "platform": "bb"
+    },
+    {
+        "product_name": "English Oven Multigrain Bread 400 g",
+        "type": "healthy bread",
+        "platform": "bb"
+    },
+    {
+        "product_name": "English Oven Sandwich Bread 400 g Pouch",
+        "type": "regular bread",
+        "platform": "bb"
+    },
+    {
+        "product_name": "Britannia Milk Bread 400 g Pouch",
+        "type": "regular bread",
+        "platform": "bb"
+    },
+    {
+        "product_name": "Tasties Milk Bread 400 g",
+        "type": "regular bread",
+        "platform": "bb"
+    },
+    {
+        "product_name": "MODERN  Family Special Bread 400 g",
+        "type": "regular bread",
+        "platform": "bb"
+    },
+    {
+        "product_name": "The Health Factory Super Multigrain Bread 250 g",
+        "type": "healthy bread",
+        "platform": "bb"
+    },
+    {
+        "product_name": "MODERN  Multigrain Bread 400 g",
+        "type": "healthy bread",
+        "platform": "bb"
+    },
+    {
+        "product_name": "MODERN  Milk Plus Bread 350 g",
+        "type": "regular bread",
+        "platform": "bb"
+    },
+    {
+        "product_name": "MODERN  Fruity Bread - Tasty Treat With Fruit Bits 200 g",
+        "type": "special bread",
+        "platform": "bb"
+    },
+    {
+        "product_name": "Tasties Brown Bread 400 g",
+        "type": "healthy bread",
+        "platform": "bb"
+    },
+    {
+        "product_name": "Britannia Brown Bread 400 g",
+        "type": "healthy bread",
+        "platform": "bb"
+    },
+    {
+        "product_name": "Nanda's Mr. Bready Premium Milk Bread 400 g",
+        "type": "regular bread",
+        "platform": "bb"
+    },
+    {
+        "product_name": "English Oven Zero maida 100% Atta/ Wheat Bread",
+        "type": "healthy bread",
+        "platform": "blinkit"
+    },
+    {
+        "product_name": "Harvest Gold White Bread",
+        "type": "regular bread",
+        "platform": "blinkit"
+    },
+    {
+        "product_name": "Harvest Gold 100% Atta Whole Wheat Bread",
+        "type": "healthy bread",
+        "platform": "blinkit"
+    },
+    {
+        "product_name": "English Oven Brown Bread",
+        "type": "healthy bread",
+        "platform": "blinkit"
+    },
+    {
+        "product_name": "English Oven Premium White Bread 350 g",
+        "type": "regular bread",
+        "platform": "blinkit"
+    },
+    {
+        "product_name": "Harvest Gold Hearty Brown Bread",
+        "type": "healthy bread",
+        "platform": "blinkit"
+    },
+    {
+        "product_name": "English Oven Milk Bread",
+        "type": "regular bread",
+        "platform": "blinkit"
+    },
+    {
+        "product_name": "English Oven Zero Maida Multigrain Bread",
+        "type": "healthy bread",
+        "platform": "blinkit"
+    },
+    {
+        "product_name": "The Health Factory Zero Maida Milk Bread",
+        "type": "regular bread",
+        "platform": "blinkit"
+    },
+    {
+        "product_name": "The Health Factory Zero Maida Whole Wheat Bread",
+        "type": "healthy bread",
+        "platform": "blinkit"
+    },
+    {
+        "product_name": "Harvest Gold Multigrain Bread",
+        "type": "healthy bread",
+        "platform": "blinkit"
+    },
+    {
+        "product_name": "Theobroma Zero Maida Whole Wheat Bread",
+        "type": "healthy bread",
+        "platform": "blinkit"
+    },
+    {
+        "product_name": "Bonn White Bread",
+        "type": "regular bread",
+        "platform": "blinkit"
+    },
+    {
+        "product_name": "The Health Factory Zero Maida Multigrain Bread",
+        "type": "healthy bread",
+        "platform": "blinkit"
+    },
+    {
+        "product_name": "Suchali's Artisan Bakehouse Country Sourdough",
+        "type": "healthy bread",
+        "platform": "blinkit"
+    },
+    {
+        "product_name": "English Oven Premium White Bread",
+        "type": "regular bread",
+        "platform": "blinkit"
+    },
+    {
+        "product_name": "Bonn High Fibre Brown Bread",
+        "type": "healthy bread",
+        "platform": "blinkit"
+    },
+    {
+        "product_name": "Harvest Gold Sandwich White Bread",
+        "type": "regular bread",
+        "platform": "blinkit"
+    },
+    {
+        "product_name": "English Oven Sandwich White Bread",
+        "type": "regular bread",
+        "platform": "blinkit"
+    },
+    {
+        "product_name": "Suchali's Artisan Bakehouse Olive & Rosemary Sourdough",
+        "type": "special bread",
+        "platform": "blinkit"
+    },
+    {
+        "product_name": "Bonn Footlong Garlic Sub",
+        "type": "special bread",
+        "platform": "blinkit"
+    },
+    {
+        "product_name": "Theobroma Zero Maida Whole Wheat Bread (250 g)",
+        "type": "healthy bread",
+        "platform": "blinkit"
+    },
+    {
+        "product_name": "Suchali's Artisan Bakehouse Buttercrust Milk Bread",
+        "type": "special bread",
+        "platform": "blinkit"
+    },
+    {
+        "product_name": "Harvest Gold 100% Whole Wheat Bread (Zero Maida)",
+        "type": "healthy bread",
+        "platform": "blinkit"
+    },
+    {
+        "product_name": "Britannia Milk Slice White Bread",
+        "type": "regular bread",
+        "platform": "zepto"
+    },
+    {
+        "product_name": "The Health Factory Zero Maida 100% Whole Wheat Bread | Clean Label - Not Brown",
+        "type": "healthy bread",
+        "platform": "zepto"
+    },
+    {
+        "product_name": "The Health Factory Zero Maida Multigrain Bread | Clean Label - Not Brown",
+        "type": "healthy bread",
+        "platform": "zepto"
+    },
+    {
+        "product_name": "The Health Factory Zero Maida Bread - 100% Whole Wheat",
+        "type": "healthy bread",
+        "platform": "zepto"
+    },
+    {
+        "product_name": "Modern 100% Whole Wheat Bread (Zero Maida, No trans fat)",
+        "type": "healthy bread",
+        "platform": "zepto"
+    },
+    {
+        "product_name": "Modern Milk Plus Bread",
+        "type": "regular bread",
+        "platform": "zepto"
+    },
+    {
+        "product_name": "English Oven Zero Maida 100% Whole Wheat Bread",
+        "type": "healthy bread",
+        "platform": "zepto"
+    },
+    {
+        "product_name": "English Oven Milk Bread",
+        "type": "regular bread",
+        "platform": "zepto"
+    },
+    {
+        "product_name": "The Health Factory Zero Maida Multigrain Bread | Clean Label - Not Brown",
+        "type": "healthy bread",
+        "platform": "zepto"
+    },
+    {
+        "product_name": "The Health Factory Zero Maida Bread - 100% Whole Wheat",
+        "type": "healthy bread",
+        "platform": "zepto"
+    },
+    {
+        "product_name": "English Oven Sandwich White Bread",
+        "type": "regular bread",
+        "platform": "zepto"
+    },
+    {
+        "product_name": "English Oven Zero Maida Multigrain Bread",
+        "type": "healthy bread",
+        "platform": "zepto"
+    },
+    {
+        "product_name": "The Health Factory Zero Maida Milk Bread | Clean Label - Not Brown",
+        "type": "regular bread",
+        "platform": "zepto"
+    },
+    {
+        "product_name": "English Oven Premium White Bread",
+        "type": "regular bread",
+        "platform": "zepto"
+    },
+    {
+        "product_name": "Britannia 100% Whole Wheat Bread (No Maida)",
+        "type": "healthy bread",
+        "platform": "zepto"
+    },
+    {
+        "product_name": "Naturbaked Zero Maida Superseed Bread",
+        "type": "healthy bread",
+        "platform": "zepto"
+    },
+    {
+        "product_name": "The Health Factory Zero Maida Protein Bread | Clean Label - Not Brown",
+        "type": "healthy bread",
+        "platform": "zepto"
+    },
+    {
+        "product_name": "English Oven Zero Maida 100% Whole Wheat Bread",
+        "type": "healthy bread",
+        "platform": "zepto"
+    },
+    {
+        "product_name": "The Health Factory Zero Maida Milk Bread | Clean Label - Not Brown",
+        "type": "regular bread",
+        "platform": "zepto"
+    },
+    {
+        "product_name": "Protein Chef Double Protein Bread (No Maida, Multigrain Brown Bread) - Made with MP Sharbati Wheat",
+        "type": "healthy bread",
+        "platform": "zepto"
+    },
+    {
+        "product_name": "The Health Factory Zero Maida Bombay Pav | Clean Label - Not Brown",
+        "type": "special bread",
+        "platform": "zepto"
+    },
+    {
+        "product_name": "Britannia Vitarich Sandwich Premium White Bread",
+        "type": "regular bread",
+        "platform": "zepto"
+    },
+    {
+        "product_name": "Baker's Loaf Zero Preservatives Multigrain Bread",
+        "type": "healthy bread",
+        "platform": "zepto"
+    },
+    {
+        "product_name": "The Health Factory Zero Maida Classic Sourdough | Clean Label",
+        "type": "healthy bread",
+        "platform": "zepto"
+    },
+    {
+        "product_name": "Brik Oven Whole Wheat Sourdough Bread",
+        "type": "healthy bread",
+        "platform": "zepto"
+    },
+    {
+        "product_name": "The Health Factory Zero Maida Multigrain Bread | Clean Label - Not Brown",
+        "type": "healthy bread",
+        "platform": "zepto"
+    },
+    {
+        "product_name": "English Oven Zero Maida Multigrain Bread",
+        "type": "healthy bread",
+        "platform": "zepto"
+    },
+    {
+        "product_name": "Modern Baker's Loaf: High Protein Bread",
+        "type": "healthy bread",
+        "platform": "zepto"
+    },
+    {
+        "product_name": "The Baker's Dozen Country Sourdough No Palm Oil No Preservative",
+        "type": "healthy bread",
+        "platform": "zepto"
+    },
+    {
+        "product_name": "Iyengars Bakery Special Bread",
+        "type": "special bread",
+        "platform": "zepto"
+    }
+]
